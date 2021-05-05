@@ -1,0 +1,495 @@
+@charset "UTF-8";
+
+/* **** ESTILO GENERAL **** */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#pagina{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+header{
+    width: 1040px;
+    height: 115px;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom right, white, #dee4f7);
+}
+
+.header_col{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#logo{
+    width: 300px;
+    height: 75px;
+    margin-right: 180px;
+}
+
+#tfno{
+    width: 200px;
+    margin-top: 35px;
+    font-weight: 600;
+    color: #09319E;
+}
+
+#tfno a{
+    text-decoration: none;
+}
+
+#contacto{
+    margin-top: 35px;
+    width: 250px;
+}
+
+#contacto a{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid #426FEB;
+    border-radius: 6px;
+    color: #426FEB;
+}
+
+#contacto a:hover{
+    border: 1px solid #426FEB;
+    background-color: #426FEB;
+    color: white;
+}
+
+
+nav{
+    width: 1050px;
+    height: 55px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{ 
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:  #426FEB;
+}
+
+nav ul li a:hover{ 
+    border-bottom: 4px solid #09319E;
+    color: #09319E;
+}
+
+footer{
+    width: 1040px;
+    height: 240px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #373d50;
+    color: white;
+}
+
+.footer_row{
+    width: 1000px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer_row div{
+    float: left;
+}
+
+#footer_row1 {
+    height: 130px;
+}
+
+#logo2{
+    margin-right: 10px;
+}
+
+#datos_oficinas{
+    width: 550px;
+}
+
+#datos_oficinas p{
+    width: 50%;
+    float: left;
+}
+
+#datos_oficinas a{
+    color: #A37D1C;
+}
+
+#datos_oficinas a:hover{
+    color: #F0C865;
+}
+
+.oficina_titulo{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contacto_foot{
+    margin-right: 20px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #F0C865;
+    border-radius: 6px;
+    color: #F0C865;
+}
+
+#contacto_foot:hover{
+    background-color: #F0C865;
+    border-radius: 6px;
+    color: #373d50;
+}
+
+.social_media{
+    margin-right: 20px;
+}
+
+.social_media img{
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+.social_media a:hover{
+    border-bottom: 2px solid #F0C865;
+}
+
+.transporte img{
+    max-width: 20px;
+}
+
+.transporte span{
+    margin-right: 20px;
+}
+
+#footer_row3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#politicas span{
+    margin-right: 4px;
+}
+
+#politicas a{
+    margin-right: 4px;
+    color: #A37D1C;
+}
+
+#politicas a:hover{
+    color: #F0C865;
+}
+
+.separador {
+    height: 14px;
+    border-left: 1px solid white;
+    position: absolute;
+  }
+
+#copyright{
+    margin-left: 4px;
+}
+
+#copyright a{
+    color: #A37D1C;
+}
+
+#copyright a:hover{
+    color: #F0C865;
+}
+
+#contenido{
+    width: 1040px;
+    height: 1650px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+    color: #373d50;
+}
+
+h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    color: #A37D1C;
+}
+
+h4{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    color: #09319E;
+}
+
+
+
+/* **** ESTILO HOME **** */
+
+
+
+#diapositivas{
+    width: 100%;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+#diapositivas img{
+    max-width: 1040px;
+    
+}
+
+#servicios{
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+#servicios_lista{
+    width: 100%;
+    margin: auto;
+    margin-left: 30px;
+    padding: auto;
+    align-content: center;
+}
+
+.servicio_caja{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #A37D1C;
+    color: #A37D1C;
+    border-radius: 8px;
+}
+
+.servicio_caja:hover{
+    background-color: #f0c96577;
+}
+
+#datos{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: #09319E;
+}
+
+table{
+    width: 100%;
+}
+
+#fila1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+th{
+    width: 200px;
+    color: white;
+    
+}
+
+#valores{
+    width: 100%;
+    height: 550px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#valores_txt{
+    width: 500px;
+    float: left;
+    margin: 20px;
+}
+
+#valores_txt div{
+    margin-bottom: 10px;
+}
+
+.btn_valor{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #426FEB;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #426FEB;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn_valor:hover{
+    border: 1px solid #426FEB;
+    background-color: #426FEB;
+    color: white;
+}
+
+#valores_img{
+    margin-top: 20px;
+    float: left;
+}
+
+#valores_img img{
+    max-width: 450px;
+    
+}
+
+/* **** ESTILO QUIENES SOMOS **** */
+
+#firma{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+
+video{
+    max-width: 500px;
+    margin: 20px;
+    float: left;
+}
+
+#firma_txt {
+    width: 400px;
+    margin: 20px;
+    float: right;
+}
+
+.abogado{
+    width: 250px;
+    height: 395px;
+    float: left;
+    margin: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.abogado img{
+    max-width: 300px;
+}
+
+/* **** ESTILO CONTACTO **** */
+
+#contenido_form{
+    width: 1040px;
+    height: 750px;
+    padding: 10px;
+    margin: 10px;
+}
+
+form{
+    width: 550px;
+    padding: 40px;
+    margin: 20px;
+    margin-left: 200px;
+    background-color: #dee4f7;
+}
+
+label{
+    width: 100%;
+}
+
+input[type=text]{
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #426FEB;
+    color: #426FEB;
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #426FEB;
+    color: white;
+}
+
+/* **** ESTILO LOCALIZACIÓN **** */
+
+.oficina{
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    padding: auto;
+    float: left;
+}
+
+.oficina_img{
+    float: left;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.oficina_txt{
+    float: left;
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#mapa{ 
+    width: 100%;;
+    height: 500px; 
+    margin-bottom: 30px;
+}
